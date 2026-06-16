@@ -1,3 +1,15 @@
+---
+name: fetch-asset
+description: >
+  WebからMP3/MP4/PNG/SVG等のメディアファイルを取得するツールセット。
+  yt-dlp（動画・音声 1000+サイト）・gallery-dl（Pixiv/Twitter/X等の画像ギャラリー）・
+  aria2（並列・大容量DL）・curl（直リン）・Pixabay CDN抽出スクリプトの使い分けを定義する。
+  「この動画をダウンロードして」「この曲を取得して」「Pixabayの音楽が欲しい」「画像を一括DL」などで使う。
+user-invocable: true
+allowed-tools: Bash, Read
+argument-hint: "<URL> [--audio-only]"
+---
+
 # fetch-asset
 
 Web から MP3/MP4/PNG/SVG 等のメディアファイルを取得するツールセット。yt-dlp・gallery-dl・aria2・curl・サイト固有スクリプトの使い分けを定義する。
