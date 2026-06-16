@@ -1,0 +1,7 @@
+{
+  "name": "fetch-asset-scripts",
+  "private": true,
+  "dependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}
