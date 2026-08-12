@@ -132,6 +132,8 @@ APIキー不要。headless Chrome で音楽ページをレンダリングし `cd
 
 ### 使い方
 
+スクリプトの実体はこのスキル配下の `scripts/extract-pixabay-cdn.js`。実行時の作業ディレクトリは利用側プロジェクトなので、**スキルを置いた場所の絶対パスで呼ぶ**。以下のパスは**作者環境の既定値**なので、他環境では自分の配置に読み替える。
+
 ```bash
 node C:/@projects/eruto-skills/fetch-asset/scripts/extract-pixabay-cdn.js "<URL1>" "<URL2>"
 ```
