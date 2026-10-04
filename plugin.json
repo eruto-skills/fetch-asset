@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "fetch-asset",
   "description": "Download media files (MP3/MP4/PNG/SVG/etc.) from the web using the right tool for each source: yt-dlp for video/audio, gallery-dl for image galleries, a Pixabay CDN extractor script, aria2 for parallel downloads, and curl for direct links.",
   "version": "1.1.0",
@@ -18,6 +19,5 @@
     "gallery-dl",
     "aria2",
     "pixabay"
-  ],
-  "skills": "./skills/"
+  ]
 }
